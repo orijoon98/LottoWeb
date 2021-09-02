@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'BBTreeGB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'BBTreeGB';
+}
+
+html body {
+    background-color: #353b48;
+}
+
+.content {
+    background-color: #353b48;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+#drwNo, #blue {
+    color: #54a0ff;
+}
+
+.recentLotto {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.recentDate {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.firstNumber {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#plus {
+    float: left;
+    margin: 3px;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#drwtNo1, #drwtNo2, #drwtNo3, #drwtNo4, #drwtNo5, #drwtNo6, #bnusNo {
+    float: left;
+    margin: 3px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    background-color: black;
+}
+
+.firstPrize, .firstPrizeTot {
+    margin: 30px;
+    font-size: 30px;
+}
+
+.firstPrize {
+    margin-bottom: 100px;
+}
+
+#firstWinamnt, #firstAccumamnt, #price {
+    font-size: 40px;
+}

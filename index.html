@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로또</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+</head>
+<body>
+    <div class="navigationbar">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="./index.html" class="navbar-brand easysLogo">로또</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="./check.html">당첨확인</a></li>
+                    <li><a href="./history.html">지난회차</a></li>
+                    <li><a href="./setting.html">더보기</a></li> 
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="recentLotto">
+            <span id="drwNo">100</span><span id="blue">회</span>
+            <span>당첨번호</span>
+        </div>
+        <div class="recentDate">
+            <span id="drwNoDate">2021-09-02</span>
+            <span>추첨</span>
+        </div>
+        <div class="firstNumber">
+            <div id="drwtNo1">1</div>
+            <div id="drwtNo2">2</div>
+            <div id="drwtNo3">3</div>
+            <div id="drwtNo4">4</div>
+            <div id="drwtNo5">5</div>
+            <div id="drwtNo6">6</div>
+            <div id="plus">+</div>
+            <div id="bnusNo">7</div>
+        </div>
+        <div class="firstPrize">
+            <span>1등 1게임당 당첨금액</span><br>
+            <span id="price">약</span>
+            <span id="firstWinamnt">1000000000</span>
+            <span id="price">억원</span>
+        </div>
+        <div class="firstPrizeTot">
+            <span>1등</span>
+            <span id="firstPrzwnerCo">5</span><span>게임 총 당첨금액</span><br>
+            <span id="price">약</span>
+            <span id="firstAccumamnt">10000000000</span>
+            <span id="price">억원</span>
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
