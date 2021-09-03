@@ -40,7 +40,7 @@ function setCircleColor() { // 로또 번호별 색깔 표시
     var numArr = [drwtNo1, drwtNo2, drwtNo3, drwtNo4, drwtNo5, drwtNo6, bnusNo];
     for(var num of numArr) {
         var cur = parseInt(num.innerText);
-        if(cur >= 1 && num <= 10) {
+        if(cur >= 1 && cur <= 10) {
             num.style.backgroundColor = "#f1c40f";
         }
         else if(cur >= 11 && cur <= 20) {
