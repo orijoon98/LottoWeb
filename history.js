@@ -69,19 +69,19 @@ function setHistory() {
 
 function setRecent() { // 회차 정보
     for(var i=0;i<53;i++) {
-        drwNoDateArr[i] = lotto["datas"][i]["drwNoDate"]
-        drwNoArr[i] = lotto["datas"][i]["drwNo"]
-        drwtNo1Arr[i] = lotto["datas"][i]["drwtNo1"]
-        drwtNo2Arr[i] = lotto["datas"][i]["drwtNo2"]
-        drwtNo3Arr[i] = lotto["datas"][i]["drwtNo3"]
-        drwtNo4Arr[i] = lotto["datas"][i]["drwtNo4"]
-        drwtNo5Arr[i] = lotto["datas"][i]["drwtNo5"]
-        drwtNo6Arr[i] = lotto["datas"][i]["drwtNo6"]
-        bnusNoArr[i] = lotto["datas"][i]["bnusNo"]
-        firstWinamntArr[i] = lotto["datas"][i]["firstWinamnt"]
-        firstAccumamntArr[i] = lotto["datas"][i]["firstAccumamnt"]
-        firstPrzwnerCoArr[i] = lotto["datas"][i]["firstPrzwnerCo"]
-        totSellamntArr[i] = lotto["datas"][i]["totSellamnt"]
+        drwNoDateArr[i] = lotto["datas"][i]["drwNoDate"];
+        drwNoArr[i] = lotto["datas"][i]["drwNo"];
+        drwtNo1Arr[i] = lotto["datas"][i]["drwtNo1"];
+        drwtNo2Arr[i] = lotto["datas"][i]["drwtNo2"];
+        drwtNo3Arr[i] = lotto["datas"][i]["drwtNo3"];
+        drwtNo4Arr[i] = lotto["datas"][i]["drwtNo4"];
+        drwtNo5Arr[i] = lotto["datas"][i]["drwtNo5"];
+        drwtNo6Arr[i] = lotto["datas"][i]["drwtNo6"];
+        bnusNoArr[i] = lotto["datas"][i]["bnusNo"];
+        firstWinamntArr[i] = lotto["datas"][i]["firstWinamnt"];
+        firstAccumamntArr[i] = lotto["datas"][i]["firstAccumamnt"];
+        firstPrzwnerCoArr[i] = lotto["datas"][i]["firstPrzwnerCo"];
+        totSellamntArr[i] = lotto["datas"][i]["totSellamnt"];
     }
 }
 

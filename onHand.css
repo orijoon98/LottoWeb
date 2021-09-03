@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+* {
+    font-family: 'GowunDodum-Regular';
+}
+
+html body {
+    background-color: #718093;
+}
+
+.selectMenu {
+    padding: 40px;
+}
+
+.input-group {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#drwNo, #drwtNo1, #drwtNo2, #drwtNo3, #drwtNo4, #drwtNo5, #drwtNo6, #bnusNo {
+    height: 38px;
+    font-size: 12px;
+    padding: 1px;
+} 
+
+.form-control {
+    text-align: center;
+}
+
+#errorone, #errortwo, #errorthree, #errorfour, #errorfive, #errorsix, #resultone, #resulttwo, #resultthree, #resultfour, #resultfive, #resultsix {
+    display: none;
+}
