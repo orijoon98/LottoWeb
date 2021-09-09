@@ -90,11 +90,8 @@ function setRecent() { // 최근회차 정보 표시
 }
 
 async function updateLotto() {
-    fetch("https://hyeokjoon.com/data/lottodata.php")
-    .then((response) => response.json())
-    .then((data) => console.log(data));
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://112.169.11.3:30080/data/lottodata.php", true)
+    xhr.open("GET", "https://hyeokjoon.com/data/lottodata.php");
     xhr.responseType='json';
     xhr.send();
     xhr.onload = () => {
